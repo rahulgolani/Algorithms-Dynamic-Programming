@@ -22,5 +22,5 @@ def BinomialCoeff(n,k):
     #print(bin)
     return bin[n][k]
 
-result=BinomialCoeff(5,2)
+result=BinomialCoeff(5,3)
 print(result)
