@@ -8,5 +8,6 @@ def maxSumSub(arr,n):
 
     return result
 
-arr=[4,6,1,3,8,4,6]
-print(maxSumSub(arr,len(arr)))
+if __name__ == '__main__':
+    arr=[4,6,1,3,8,4,6]
+    print(maxSumSub(arr,len(arr)))
