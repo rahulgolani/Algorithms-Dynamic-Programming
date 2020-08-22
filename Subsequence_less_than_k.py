@@ -25,10 +25,11 @@ def productSubSeqCount(arr,k):
             dp[i][j]=dp[i][j-1]
             if arr[j-1]<=i and arr[j-1]>0:
                 dp[i][j]+=dp[i//arr[j-1]][j-1]+1
-    for i in dp:
-        print(i)
+    # for i in dp:
+    #     print(i)
     return dp[k][n]
 
-arr=[1,2,3,4]
-k=5
-productSubSeqCount(arr,k)
+if __name__ == '__main__':
+    arr=[1,2,3,4]
+    k=5
+    print(productSubSeqCount(arr,k))
