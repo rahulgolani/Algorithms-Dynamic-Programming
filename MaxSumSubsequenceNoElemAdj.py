@@ -19,3 +19,4 @@ if __name__ == '__main__':
     arr=[5,5,10,100,10,5]
     result=Subsequence(arr)
     print(result)
+# max(max(sum[i-1], sum[i-2] + arr[i]), arr[i] + arr[i-1] + sum[i-3])
