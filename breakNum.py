@@ -9,7 +9,7 @@ if __name__ == '__main__':
     print(breakSum(n))
 
 
-Dynamic Programming Solution
+# Dynamic Programming Solution
 '''
 def breakSum(n):
     dp=[0]*(n+1)
